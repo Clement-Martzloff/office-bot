@@ -6,8 +6,8 @@
     "schema": "infrastructure/persistence/prisma/schema.prisma"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
+    "dev": "next dev --webpack",
+    "build": "next build --webpack",
     "start": "next start",
     "lint": "next lint"
   },
@@ -28,10 +28,10 @@
     "lucide-react": "^0.511.0",
     "mammoth": "^1.9.1",
     "motion": "^12.23.12",
-    "next": "15.3.2",
+    "next": "^16.1.7",
     "pdf-parse": "^1.1.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-markdown": "^10.1.0",
     "react-syntax-highlighter": "^15.6.1",
     "remark": "^15.0.1",
@@ -57,7 +57,7 @@
     "@types/react-dom": "^19",
     "@types/react-syntax-highlighter": "^15.5.13",
     "eslint": "^9",
-    "eslint-config-next": "15.3.2",
+    "eslint-config-next": "^16.1.7",
     "prettier": "^3.6.2",
     "prettier-plugin-tailwindcss": "^0.6.13",
     "prisma": "^6.8.2",
