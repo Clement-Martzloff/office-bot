@@ -28,25 +28,25 @@ export function setupDI() {
   container.register("DocumentsRelevanceFilterChatModel", (container) =>
     container
       .resolve("ChatModelFactory")
-      .create({ model: "gemini-2.5-flash-preview-05-20", temperature: 0 }),
+      .create({ model: "gemini-2.5-flash", temperature: 0 }),
   );
 
   container.register("DocumentsSynthesizerChatModel", (container) =>
     container
       .resolve("ChatModelFactory")
-      .create({ model: "gemini-2.5-flash-preview-05-20", temperature: 0 }),
+      .create({ model: "gemini-2.5-flash", temperature: 0 }),
   );
 
   container.register("JsonReportExtractorChatModel", (container) =>
     container
       .resolve("ChatModelFactory")
-      .create({ model: "gemini-2.5-flash-preview-05-20", temperature: 0 }),
+      .create({ model: "gemini-2.5-flash", temperature: 0 }),
   );
 
   container.register("JsonReportTranslatorChatModel", (container) =>
     container
       .resolve("ChatModelFactory")
-      .create({ model: "gemini-2.5-flash-preview-05-20", temperature: 0 }),
+      .create({ model: "gemini-2.5-flash", temperature: 0 }),
   );
 
   container.registerClass(
